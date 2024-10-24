@@ -135,7 +135,7 @@ export default function Home() {
             >
               <ChatBubbleAvatar
                 src=""
-                fallback={message.role == "user" ? "👨🏽" : "🤖"}
+                fallback={message.role == "user" ? "🐻" : "🧠"}
               />
               <ChatBubbleMessage
               >
@@ -209,7 +209,7 @@ export default function Home() {
             disabled={!input || isLoading}
             type="submit"
             size="sm"
-            className="mr-2 gap-1.5"
+            className="mr-2 gap-1.5 text-base"
           >
             Send Message
             <CornerDownLeft className="size-3.5" />
@@ -217,13 +217,13 @@ export default function Home() {
         </form>
       </div>
       <div className="pt-4 flex gap-2 items-center">
-        <LinkedInLogoIcon className="size-4" />
+        <GitHubLogoIcon className="size-4" />
         <p className="text-xs">
           <a
-            href="https://www.linkedin.com/in/rahulkumarm1/"
+            href="https://github.com/rahul7932/cal-rag"
             className="font-bold inline-flex flex-1 justify-center gap-1 leading-4 hover:underline"
           >
-            LinkedIn
+            GitHub
             <svg
               aria-hidden="true"
               height="7"

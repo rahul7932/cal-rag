@@ -18,8 +18,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-muted/30`}>
-        <ThemeProvider attribute="class" defaultTheme="system">
+      <body className={`${inter.className} bg-black text-white`}>
+        <ThemeProvider attribute="class" defaultTheme="dark" forcedTheme="dark">
           {children}
           <ChatSupport />
         </ThemeProvider>
