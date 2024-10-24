@@ -1,0 +1,70 @@
+# Dependencies
+frontend/node_modules
+frontend/.pnp
+frontend/.pnp.js
+
+# Testing
+frontend/coverage
+
+# Next.js
+frontend/.next/
+frontend/out/
+
+# Production
+frontend/build
+
+# Misc
+.DS_Store
+*.pem
+
+# Debug
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# Local env files
+frontend/.env*.local
+
+# Vercel
+frontend/.vercel
+
+# TypeScript
+frontend/*.tsbuildinfo
+frontend/next-env.d.ts
+
+# IDEs and editors
+.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.vscode/*
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+frontend/.eslintcache
+
+# Optional stylelint cache
+frontend/.stylelintcache
+
+# Logs
+frontend/logs
+frontend/*.log
+
+# Runtime data
+frontend/pids
+frontend/*.pid
+frontend/*.seed
+frontend/*.pid.lock
+
+# Temporary folders
+frontend/tmp/
+frontend/temp/
+
+# Root-level files and directories (if any)
+/node_modules
+/.env*.local
